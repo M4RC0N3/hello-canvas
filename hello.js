@@ -35,6 +35,8 @@ for(let i=0; i<5; i++){
             context.rect( x+8, y+8, width - 16, height - 16 );
             context.stroke();
         }
-        
     }
 }
+setTimeout(() => {
+    document.location.reload();
+  }, 600);
